@@ -1,0 +1,204 @@
+body{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.container{
+    position: relative;
+    height: 900px;
+    margin-top: 10px;
+   
+   width:1440px;
+ 
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+.bgImg{
+    position: absolute;
+}
+.frontCard{
+    position: absolute;
+    top: 190px;
+    left: 150px;
+}
+.cardLogo{
+    position: absolute;  
+    top: 210px;
+    left: 180px; 
+}
+.backCard{
+    position: absolute;
+   bottom: 190px;
+    left: 250px;
+}
+.frontCardCont h1{
+    position: absolute;  
+    top: 310px;
+    left: 180px; 
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.cardName{
+    position: absolute;  
+    top: 370px;
+    left: 180px; 
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.cardDate{
+    position: absolute;  
+    top: 370px;
+    left: 500px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px; 
+}
+.backCardCont h5{
+    position: absolute;  
+   bottom: 285px;
+    left: 610px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px; 
+}
+.cardDetail{
+    width: 400px;
+    height: 350px;
+    position: relative;
+    left: 900px;
+    top: 300px;
+    flex-direction: row;
+}
+.cardInfo{
+    width: 350px;
+    height: 32px;
+    border-radius: 10px;
+    margin-bottom: 30px;;
+    border: 1px solid;
+    border-color: hsl(279, 6%, 55%);
+    
+}
+.cc-number{
+    width: 350px;
+    height: 32px;
+    border-radius: 10px;
+    margin-bottom: 30px;;
+    border: 1px solid;
+    border-color: hsl(279, 6%, 55%);
+}
+.cardInfoDate{
+    width: 50px;
+    height: 32px;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: hsl(279, 6%, 55%);
+    margin-right: 8px;
+}
+.cardInfoCvc{
+    width: 170px;
+    height: 32px;
+    border-radius: 10px;
+    margin-left: 6px;
+    border: 1px solid;
+    border-color: hsl(279, 6%, 55%);
+    margin-left: 15px;
+}
+.cvc{
+    position: absolute;
+    bottom: 155px;
+    right: 195px;
+    
+}
+.btn{
+    margin-top: 40px;
+    width: 365px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+}
+::placeholder{
+    font-family: 'Space Grotesk', sans-serif;
+    opacity: 0.5;
+}
+input{
+    font-family: 'Space Grotesk', sans-serif;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.completeSign{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-bottom: 50px;
+}
+.myThanks{
+   text-align: center;  
+   letter-spacing: 5px;  
+}
+.subThanks{
+    text-align: center; 
+    color: hsl(279, 6%, 55%);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.myButton{
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    padding: 20px 160px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+#thankYou{
+    display: none;
+}
+.incoName{
+    position: absolute;
+    top: 40px;
+    color: hsl(0, 46%, 50%);
+    font-weight: 500;
+    font-size: 12px;
+    display: none;
+}
+.incoNumber{
+    position: absolute;
+    top: 125px;
+    color: hsl(0, 46%, 50%);
+    font-weight: 500;
+    font-size: 12px;
+    display: none;
+}
+.incoDate{
+    position: absolute;
+    top: 215px;
+    color: hsl(0, 46%, 50%);
+    font-weight: 500;
+    font-size: 12px;
+    display: none;
+}
+#myForm label{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.incoCvc{
+    position: absolute;
+    top: 215px;
+    left: 180px;
+    color: hsl(0, 46%, 50%);
+    font-weight: 500;
+    font-size: 12px;
+    display: none;
+}

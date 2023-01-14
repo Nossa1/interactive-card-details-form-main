@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@800;900&family=Plus+Jakarta+Sans:wght@500;800&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="index.css">
+
+<header>
+  
+
+<body>
+ 
+    <div class="container">
+        <div>
+            <picture> 
+                <img src="bg-main-desktop.png" alt="bg image" class="bgImg">
+            </picture>
+        </div>
+
+        <div class="frontCardCont">
+            <picture> 
+                <img src="bg-card-front.png" alt="card image" class="frontCard">
+                <img src="card-logo.svg" alt="logo image" class="cardLogo">
+                <h1>9591 6489 6389 101E</h1>
+                <h5 class="cardName">FELICIA LEIRE</h5>
+                <h5 class="cardDate">09/00</h5>
+            </picture>
+        </div> 
+        
+        <div class="backCardCont">
+            <picture> 
+                <img src="bg-card-back.png" alt="back card image" class="backCard">
+                <h5>000</h5>
+            </picture>
+        </div>  
+        
+        <div class="cardDetail" id="cardDetail">
+
+            <form id="myForm" action="#">
+            <label>CARDHOLDER NAME</label>
+            <input type="text" class="cardInfo" name="card holder" id="cardHolder" required>
+            <h5 class="incoName">Incorrect name</h5>
+            
+            <label>CARD NUMBER</label>
+            <input name="credit-number" pattern="\d*" id="creditNumber" class="cc-number" type="text"  minlength="16" maxlength="16" placeholder="0000 0000 0000 0000" required>
+            <h5 class="incoNumber">Wrong format. numbers only</h5>
+            
+            <label>EXP. DATE (MM/YY)</label><br>
+            <input type="tel" pattern="\d*" name="month date" id="monthDate" class="cardInfoDate" placeholder="MM" minlength="2" maxlength="2" required>
+            <input type="tel" pattern="\d*" name="year date" id="yearDate" class="cardInfoDate" placeholder="YY" minlength="2" maxlength="2" required>
+            <h5 class="incoDate">Can't be blank</h5>
+            <label class="cvc">CVC</label>
+            <input type="tel" pattern="\d*" name="cvc number" id="cvcNumber" class="cardInfoCvc" placeholder="e.g. 123" minlength="3" maxlength="3" required><br>
+            <h5 class="incoCvc">Can't be blank</h5>
+            <button class="btn" name="confrim button" id="confrimBtn" type="submit" onclick="confirmation()">Confirm</button>
+            </form>
+
+            <div id="thankYou">
+                <picture>
+                    <img src="icon-complete.svg" alt="complete sign" class="completeSign">
+                </picture>
+                <h1 class="myThanks">THANK YOU!</h1>
+                <h4 class="subThanks">We've added your card details</h4>
+                <button class="myButton">Continue</button>
+            </div>
+
+        </div>
+    
+    </div>
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
